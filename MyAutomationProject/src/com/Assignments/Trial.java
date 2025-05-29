@@ -1,5 +1,6 @@
 package com.Assignments;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +12,8 @@ public class Trial {
 		
 	    String url= driver.getCurrentUrl();
 	    System.out.println("url"+url);
+	    
+	    //driver.findElement(By.partialLinkText("password?")).click();
 	    
 	    driver.close();
 
