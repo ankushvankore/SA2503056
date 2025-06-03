@@ -21,17 +21,17 @@ public class A12EchoEchoCheckbox {
 		for(WebElement p : products)
 		{
 			System.out.println("Before...");
-			System.out.println("Visible : " + p.isDisplayed());
-			System.out.println("Enabled : " + p.isEnabled());
-			System.out.println("Selected: " + p.isSelected());
+			System.out.println(p.getDomAttribute("value") + " Visible : " + p.isDisplayed());
+			System.out.println(p.getDomAttribute("value") + " Enabled : " + p.isEnabled());
+			System.out.println(p.getDomAttribute("value") + " Selected: " + p.isSelected());
 			
 			if(p.isSelected() == false)
 				p.click();
 			
 			System.out.println("\nAfter...");
-			System.out.println("Visible : " + p.isDisplayed());
-			System.out.println("Enabled : " + p.isEnabled());
-			System.out.println("Selected: " + p.isSelected());
+			System.out.println(p.getDomAttribute("value") + " Visible : " + p.isDisplayed());
+			System.out.println(p.getDomAttribute("value") + " Enabled : " + p.isEnabled());
+			System.out.println(p.getDomAttribute("value") + " Selected: " + p.isSelected());
 		}
 		
 		
