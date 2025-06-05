@@ -1,6 +1,8 @@
 package com.WebDriverDemos;
 
 import java.time.Duration;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -30,6 +32,20 @@ public class D24HandlingTable {
 		
 		System.out.println(rows.get(index).getText());
 		System.out.println(driver.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr["+(index+1)+"]")).getText());
+		
+		List<WebElement>cPrice = driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr/td[4]"));
+		double cpArray[] = new double[cPrice.size()];
+		
+		for(int i = 0; i < cPrice.size(); i++)
+		{
+			//String price = cPrice.get(i).getText();
+			//price = price.replace(",", "");			//Remove , from the price
+			//cpArray[i] = Double.parseDouble(price);
+			cpArray[i] = Double.parseDouble(cPrice.get(i).getText().replace(",", ""));
+		}
+		Arrays.sort(cpArray);
+		System.out.println("Lowest Price : " + cpArray[0]);
+		System.out.println("Highest Price: " + cpArray[cpArray.length-1]);
 		
 		driver.close();
 	}
