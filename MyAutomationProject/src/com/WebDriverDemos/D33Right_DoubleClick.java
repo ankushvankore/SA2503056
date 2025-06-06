@@ -21,7 +21,8 @@ public class D33Right_DoubleClick {
 		Actions act = new Actions(driver);
 		
 		WebElement rightClickBtn = driver.findElement(By.xpath("//*[@id=\"authentication\"]/span"));
-		act.contextClick(rightClickBtn).perform();
+		//act.contextClick(rightClickBtn).perform();
+		act.moveToElement(rightClickBtn).contextClick().perform();
 		
 		List<WebElement>menus = driver.findElements(By.xpath("//*[@id=\"authentication\"]/ul/li/span"));
 		for(WebElement m : menus)
@@ -32,10 +33,14 @@ public class D33Right_DoubleClick {
 		//displayed earlier will get disappeared
 		
 		WebElement dblClickBtn = driver.findElement(By.xpath("//*[@id=\"authentication\"]/button"));
-		act.doubleClick(dblClickBtn).perform();
+		//act.doubleClick(dblClickBtn).perform();
+		act.moveToElement(dblClickBtn).doubleClick().perform();
 		
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
+		
+		//act.moveToElement(dblClickBtn).click();
+		//act.click(dblClickBtn).click();
 		
 		driver.close();
 	}

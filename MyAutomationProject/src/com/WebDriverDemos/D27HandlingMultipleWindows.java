@@ -28,7 +28,7 @@ public class D27HandlingMultipleWindows {
 		//System.out.println(windows);
 		Iterator<String>itr = windows.iterator();	
 		//Iterator will help to iterate over the Set or
-		//will able to read the values one by one from set
+		//will able to read the values one by one from Set
 		String win1 = itr.next();		//Read the 1st value
 		String win2 = itr.next();		//Read 2nd value
 		

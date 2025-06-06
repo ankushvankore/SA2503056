@@ -12,7 +12,8 @@ public class D29HeadlessBrowser {
 	public static void main(String[] args) throws InterruptedException {
 		ChromeOptions op = new ChromeOptions();
 		//op.addArguments("--headless");
-		op.addArguments("start-maximized");
+		//op.addArguments("start-maximized");
+		op.addArguments("--disable-notifications");
 		WebDriver driver = new ChromeDriver(op);
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
