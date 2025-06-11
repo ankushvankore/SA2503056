@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "For Groups">
+	<test name = "My Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05LenskartAssignment"></class>
+		</classes>
+		<groups>
+			<run>
+				<exclude name = "group2"></exclude>
+			</run>
+		</groups>
+	</test>
+</suite>

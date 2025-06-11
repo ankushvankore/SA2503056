@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+	<test name = "My Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05LenskartAssignment">
+			</class>
+			<class name = "com.TestNGDemos.D06DataProviderDemo"></class>
+		</classes>
+	</test>
+</suite>
