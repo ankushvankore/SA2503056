@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T22:15:53 IST" name="My Suite" finished-at="2025-06-11T22:16:26 IST" duration-ms="33685">
+  <suite started-at="2025-06-12T22:23:06 IST" name="Default suite" finished-at="2025-06-12T22:23:18 IST" duration-ms="12281">
     <groups>
     </groups>
-    <test started-at="2025-06-11T22:15:53 IST" name="My Test" finished-at="2025-06-11T22:16:26 IST" duration-ms="33685">
-      <class name="com.TestNGDemos.D02LaunchOnlineShoping">
-        <test-method signature="launchLenskart()[pri:1, instance:com.TestNGDemos.D02LaunchOnlineShoping@351d00c0]" started-at="2025-06-11T22:15:53 IST" name="launchLenskart" finished-at="2025-06-11T22:16:26 IST" duration-ms="32822" status="PASS">
+    <test started-at="2025-06-12T22:23:06 IST" name="Default test" finished-at="2025-06-12T22:23:18 IST" duration-ms="12281">
+      <class name="com.TestNGDemos.D08ReadParametersFromXML">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D08ReadParametersFromXML@45752059]" started-at="2025-06-12T22:23:06 IST" name="beforeTest" finished-at="2025-06-12T22:23:18 IST" duration-ms="11760" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchLenskart -->
-        <test-method signature="launchMyntra()[pri:3, instance:com.TestNGDemos.D02LaunchOnlineShoping@351d00c0]" started-at="2025-06-11T22:15:53 IST" name="launchMyntra" finished-at="2025-06-11T22:16:26 IST" duration-ms="33580" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D08ReadParametersFromXML@45752059]" started-at="2025-06-12T22:23:18 IST" name="login" finished-at="2025-06-12T22:23:18 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'userName' is required by @Test on method login but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1973855125\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'userName' is required by @Test on method login but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1973855125\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchMyntra -->
-        <test-method signature="launchAmazon()[pri:2, instance:com.TestNGDemos.D02LaunchOnlineShoping@351d00c0]" started-at="2025-06-11T22:15:53 IST" name="launchAmazon" finished-at="2025-06-11T22:16:23 IST" duration-ms="30753" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D08ReadParametersFromXML@45752059]" started-at="2025-06-12T22:23:18 IST" name="afterTest" finished-at="2025-06-12T22:23:18 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="launchFlipkart()[pri:4, instance:com.TestNGDemos.D02LaunchOnlineShoping@351d00c0]" started-at="2025-06-11T22:15:53 IST" name="launchFlipkart" finished-at="2025-06-11T22:16:24 IST" duration-ms="31310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchFlipkart -->
-      </class> <!-- com.TestNGDemos.D02LaunchOnlineShoping -->
-    </test> <!-- My Test -->
-  </suite> <!-- My Suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNGDemos.D08ReadParametersFromXML -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

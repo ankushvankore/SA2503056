@@ -4,7 +4,8 @@
 		<classes>
 			<class name = "com.TestNGDemos.D05LenskartAssignment">
 			</class>
-			<class name = "com.TestNGDemos.D06DataProviderDemo"></class>
+			<class name = "com.TestNGDemos.D06DataProviderDemo">
+			</class>
 		</classes>
 	</test>
 </suite>
