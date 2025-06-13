@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D08ReadParametersFromXML">
+      <class name="com.TestNGDemos.D14ReadFromExcel">
         <methods>
-          <include name="login"/>
           <include name="afterTest"/>
-          <include name="afterMethod"/>
+          <include name="readAllData"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D08ReadParametersFromXML -->
+      </class> <!-- com.TestNGDemos.D14ReadFromExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

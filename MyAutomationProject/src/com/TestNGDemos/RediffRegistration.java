@@ -10,6 +10,7 @@ public class RediffRegistration {
 	WebDriver driver;
 	
 	@FindBy (xpath = "//input[@placeholder='Enter your full name']") WebElement fullName;
+	@FindBy (css = "input[name^=\"login\"]") WebElement rediffId;
 	
 	public RediffRegistration(WebDriver d)
 	{
@@ -24,7 +25,8 @@ public class RediffRegistration {
 	}
 	public void chooseRedifId(String rid)
 	{
-		driver.findElement(By.xpath("//*[@placeholder=\"Enter Rediffmail ID\"]")).sendKeys(rid);
+		//driver.findElement(By.xpath("//*[@placeholder=\"Enter Rediffmail ID\"]")).sendKeys(rid);
+		rediffId.sendKeys("ankushvankore");
 	}
 	public void checkAvaiablity() throws InterruptedException
 	{
