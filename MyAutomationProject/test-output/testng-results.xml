@@ -1,25 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-13T22:21:50 IST" name="Default suite" finished-at="2025-06-13T22:21:52 IST" duration-ms="1287">
+  <suite started-at="2025-06-17T21:20:09 IST" name="Default suite" finished-at="2025-06-17T21:20:36 IST" duration-ms="26968">
     <groups>
     </groups>
-    <test started-at="2025-06-13T22:21:50 IST" name="Default test" finished-at="2025-06-13T22:21:52 IST" duration-ms="1287">
-      <class name="com.TestNGDemos.D14ReadFromExcel">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D14ReadFromExcel@3fc2959f]" started-at="2025-06-13T22:21:50 IST" name="beforeTest" finished-at="2025-06-13T22:21:52 IST" duration-ms="1173" status="PASS">
+    <test started-at="2025-06-17T21:20:09 IST" name="Default test" finished-at="2025-06-17T21:20:36 IST" duration-ms="26968">
+      <class name="com.TestNGDemos.D15LoginToOHRM_DDF">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:09 IST" name="beforeTest" finished-at="2025-06-17T21:20:20 IST" duration-ms="10575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="readAllData()[pri:0, instance:com.TestNGDemos.D14ReadFromExcel@3fc2959f]" started-at="2025-06-13T22:21:52 IST" name="readAllData" finished-at="2025-06-13T22:21:52 IST" duration-ms="21" status="PASS">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:20 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-17T21:20:22 IST" duration-ms="1883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readAllData -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D14ReadFromExcel@3fc2959f]" started-at="2025-06-13T22:21:52 IST" name="afterTest" finished-at="2025-06-13T22:21:52 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:22 IST" name="afterMethod" finished-at="2025-06-17T21:20:25 IST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:25 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-17T21:20:26 IST" duration-ms="693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abhay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:26 IST" name="afterMethod" finished-at="2025-06-17T21:20:27 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:27 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-17T21:20:28 IST" duration-ms="1013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sanna123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:28 IST" name="afterMethod" finished-at="2025-06-17T21:20:29 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:29 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-17T21:20:29 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:29 IST" name="afterMethod" finished-at="2025-06-17T21:20:32 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:32 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-17T21:20:33 IST" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ankush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ankush123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:33 IST" name="afterMethod" finished-at="2025-06-17T21:20:34 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:34 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2025-06-17T21:20:35 IST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bindu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bindu123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOHRM -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:35 IST" name="afterMethod" finished-at="2025-06-17T21:20:35 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D15LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-06-17T21:20:35 IST" name="afterTest" finished-at="2025-06-17T21:20:36 IST" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D14ReadFromExcel -->
+      </class> <!-- com.TestNGDemos.D15LoginToOHRM_DDF -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,12 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class RediffRegistration {
 	WebDriver driver;
 	
 	@FindBy (xpath = "//input[@placeholder='Enter your full name']") WebElement fullName;
 	@FindBy (css = "input[name^=\"login\"]") WebElement rediffId;
+	@FindBy (id = "country") WebElement drpList;
 	
 	public RediffRegistration(WebDriver d)
 	{
@@ -41,5 +43,9 @@ public class RediffRegistration {
 	public void confirmPassword(String ps)
 	{
 		driver.findElement(By.xpath("//input[@id='newpasswd1']")).sendKeys(ps);
+	}
+	public void selectCountry()
+	{
+		
 	}
 }
