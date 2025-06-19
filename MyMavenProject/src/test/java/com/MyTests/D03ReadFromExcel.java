@@ -12,6 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.AfterTest;
 
 public class D03ReadFromExcel {
+	String d = "C:\\Users\\Dell\\Desktop\\LoginData.xlsx";
 	String fPath = "D:\\StarAgile\\Demos\\SA2503056\\MyAutomationProject\\ExcelFiles\\Friends.xlsx";
 	File file;
 	FileInputStream fis;
