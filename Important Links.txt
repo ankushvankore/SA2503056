@@ -10,3 +10,6 @@ Download last 4th file (poi-bin-5.2.3-20220909.zip) and store it in the 2nd fold
 
 Cucumber Skeleton
 https://github.com/cucumber/cucumber-java-skeleton/commit/d7249b50c570816eba27ce94557e1de7e9b0f97
+
+Extent Report Dependency
+https://mvnrepository.com/artifact/com.aventstack/extentreports

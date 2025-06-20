@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/MyCucumberProject/MyCucumberProject/F04DemoQARegistration.feature",
-					glue = "com.StepDef")
+					glue = {"com.StepDef", "com.MyHooks"})
 public class R04DemoQARegistration {
 
 }
